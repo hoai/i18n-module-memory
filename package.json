@@ -1,5 +1,5 @@
 {
-  "name": "nuxt-i18n",
+  "name": "nuxt-i18n-memory",
   "version": "6.27.0",
   "description": "i18n for Nuxt",
   "license": "MIT",
@@ -39,7 +39,6 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "npm run lint",
       "post-merge": "yarn"
     }
   },
